@@ -155,5 +155,5 @@ document.querySelector("#sub-btn").onclick = function() {
 };
 
 document.querySelector('#reset-btn').onclick = function() {
-  transactions = [];
+  
 };
