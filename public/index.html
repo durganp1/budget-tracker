@@ -13,6 +13,9 @@
   <title>Budget Tracker</title>
 </head>
 <body>
+  <header class = 'title'>
+    Budget Tracker
+  </header>
   <div class="wrapper">
     <div class="total">
       <div class="total">Your total is: $<span id="total">0</span></div>
@@ -23,6 +26,7 @@
       <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
       <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
       <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+      <button id = 'reset-btn'>Clear All Entries</button>
       <p class="error"></p>
     </div>
 

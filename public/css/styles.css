@@ -49,3 +49,9 @@ tr:nth-child(even) {
   width: 90%;
   margin: 0 auto;
 }
+
+.title {
+  font-size: 175%;
+  color: purple;
+  margin-bottom: 20px;
+}

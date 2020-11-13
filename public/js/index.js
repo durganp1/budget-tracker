@@ -153,3 +153,7 @@ document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
   alert('Funds Subtracted!');
 };
+
+document.querySelector('#reset-btn').onclick = function() {
+  transactions = [];
+};

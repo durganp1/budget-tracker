@@ -29,7 +29,7 @@ request.onerror = function(event) {
     console.log(event.target.errorCode);
 };
 
-// THIS FUNCTION WILL BE EXECUTED IF WE ATTEMPT TO SUBMIT A NEW PIZZA AND THERE IS NO INTERNET CONNECTION
+// THIS FUNCTION WILL BE EXECUTED IF WE ATTEMPT TO SUBMIT A NEW ITEM AND THERE IS NO INTERNET CONNECTION
 function saveRecord(record) {
     // OPEN A NEW TRANSACTION WITH THE DATABASE WITH READ AND WRITE PERMISSIONS
     const transaction = db.transaction(['new_item'], 'readwrite');
